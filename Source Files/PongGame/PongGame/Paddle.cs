@@ -7,7 +7,7 @@ namespace PongGame
 {
     interface Paddle : Quad, GameObjects
     {
-        int PositionX { get; set; }
+        double PositionX { get; set; }
         int PositionY { get; set; }
     }
 }

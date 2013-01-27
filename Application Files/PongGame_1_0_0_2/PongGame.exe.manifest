@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
-  <asmv1:assemblyIdentity name="PongGame.exe" version="1.0.0.1" publicKeyToken="ac778aa1c21784fc" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="PongGame.exe" version="1.0.0.2" publicKeyToken="ac778aa1c21784fc" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="Game.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -68,33 +68,51 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PongGame.exe" size="17920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PongGame.exe" size="18944">
       <assemblyIdentity name="PongGame" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>AGKIcrT7NMbz74ZnjvJRxkKxskY=</dsig:DigestValue>
+        <dsig:DigestValue>AfMIfeazzqBmC28S82TV9ZCN5rk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Content\Ball.xnb" size="161791">
+  <file name="Content\Background.xnb" size="1651387">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>XRhW3iAtf72i5PdPEfDHaR3ROq4=</dsig:DigestValue>
+      <dsig:DigestValue>JHc3H7NhjP0t60khCCG4IMzlYh8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\Paddle.xnb" size="256223">
+  <file name="Content\BallNew.xnb" size="14587">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>by+8quTxh9uDLlEo5XfK7I01jDU=</dsig:DigestValue>
+      <dsig:DigestValue>YP8Ck7Fii1DjpZqpKQofSB9akY8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\Font.xnb" size="70830">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dxQwCbP5Pulh/xxCnDUptbH6lBM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\PaddleNew.xnb" size="72187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0XLpKNKhCv1g3XMLxQ3P/N4Yng4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Game.ico" size="4286">
@@ -115,4 +133,4 @@
       <dsig:DigestValue>diNvdcDpDtGEMuMQIHpkKK3qVHc=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=ASTARA-ACER1\Astara" issuerKeyHash="796f78c398d36c1576e94a82c6da1b962760495e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>sMFc/054IJzkBaxjrob7tqmgguU=</DigestValue></Reference></SignedInfo><SignatureValue>X2O6wXZ8F1dgTewaDfCusPTuQr1CxDBqpkqNqeoiwHpySYYDXqQrzwt4wIFyLwi4PYYUFqsGIRuwIJMKcGM5DNn0aVZFEX/4pwnpb2JPRcpDdXuGGaD+vs8wECPkm9wVXR172+/Res6OUIsNH/ilpgp0/s5tccaW38TIXVzy6es=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t4trfDft4PiZgGtRjM497+YDwxeTQYcP/rGCLGkb+C9bGKaeDUEUMqy4tYD6qfv2SuOLSCRf+qKJs/C8pd8ydzyRiIuAGRrWDPLfC3/3Z5UbcAa4himYFWQ5/tW0R9+QInbaT8WWyH6W5Z0pwEB0TCfqESUbn3EYTEcq6SA/QUc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e582a0a9b6fb86ae63ac05e49c20784eff5cc1b0" Description="" Url=""><as:assemblyIdentity name="PongGame.exe" version="1.0.0.1" publicKeyToken="ac778aa1c21784fc" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASTARA-ACER1\Astara</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ULMFfK5IVl+ZuNmW9/boPixqQbI=</DigestValue></Reference></SignedInfo><SignatureValue>HsfZETa1aUNRYkmrBFw4Kyap0NGhSN4r1De3QmNdumgh+zB/AC/1L4+z9kXlCixJhkNMf6Rr4/dbKMxcQ6s2A3fZ7naIgroF86UN+NUwnpMwN7AucaXAE9PF6C/adu4VSzyOPpExywAPe7zv+eSziQrLVOSYT31BZD6Re4HvmEg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t4trfDft4PiZgGtRjM497+YDwxeTQYcP/rGCLGkb+C9bGKaeDUEUMqy4tYD6qfv2SuOLSCRf+qKJs/C8pd8ydzyRiIuAGRrWDPLfC3/3Z5UbcAa4himYFWQ5/tW0R9+QInbaT8WWyH6W5Z0pwEB0TCfqESUbn3EYTEcq6SA/QUc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQVSsLE7yOsI1FigtV85uYczAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBBAFMAVABBAFIAQQAtAEEAQwBFAFIAMQBcAEEAcwB0AGEAcgBhMB4XDTEzMDEyMjE3MjgwOFoXDTE0MDEyMjIzMjgwOFowMTEvMC0GA1UEAx4mAEEAUwBUAEEAUgBBAC0AQQBDAEUAUgAxAFwAQQBzAHQAYQByAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALeLa3w37eD4mYBrUYzOPe/mA8MXk0GHD/6xgixpG/gvWximng1BFDKsuLWA+qn79krji0gkX/qiibPwvKXfMnc8kYiLgBka1gzy3wt/92eVG3AGuIYpmBVkOf7VtEffkCJ22k/Flsh+luWdKcBAdEwn6hElG59xGExHKukgP0FHAgMBAAEwCQYFKw4DAh0FAAOBgQCeS19cSFUyklhmYrkJPa+l058yeLjOjJ9d0XCKXgAGBgFnOze+7YLVZj7BffovvucduxwmyoVRFh7SJr1NDCjd9dCTDX/7Ei7uXeB66OCib2xyXTCoDHfLQ8ha1Fsl+ZZDL0L/wFKrK+RwmTeIaMHZjGKwmJtZlzvuAb7GJnoWYg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=ASTARA-ACER1\Astara" issuerKeyHash="796f78c398d36c1576e94a82c6da1b962760495e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Sp2VvDdLGgO8Z3cF02ZRUk+PMA8=</DigestValue></Reference></SignedInfo><SignatureValue>I9ww2aaZJyA5qRUY2rEQYDwMFDoRPk3bhs+A/VNrmS2NikdKiwYm0K7oEHMmPYSfiuy0iPtA1LWTOTlBkh/ugpOGKwDNGWyfEZV8N7cbtzav4QcgNzSGxfNbH5ciBiup/8kPhzJqTVAvmOn3/IvAXaF2PQ0SbZjwrmvNmeqWQhA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t4trfDft4PiZgGtRjM497+YDwxeTQYcP/rGCLGkb+C9bGKaeDUEUMqy4tYD6qfv2SuOLSCRf+qKJs/C8pd8ydzyRiIuAGRrWDPLfC3/3Z5UbcAa4himYFWQ5/tW0R9+QInbaT8WWyH6W5Z0pwEB0TCfqESUbn3EYTEcq6SA/QUc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0f308f4f525166d3057767bc031a4b37bc959d4a" Description="" Url=""><as:assemblyIdentity name="PongGame.exe" version="1.0.0.2" publicKeyToken="ac778aa1c21784fc" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASTARA-ACER1\Astara</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wKUKBuqXDpa4nWShG/QTzSfOiL0=</DigestValue></Reference></SignedInfo><SignatureValue>Yrzs5F8QdQNkd/pJMh6bzfUgBDReJXdNxCM7a3csDtCANFr1CJEK4DheYYCtKaleP8JSSqHUVto1ky+agxE895XNBVy2Dd1tcfV/6sdH2rFvCF0Eg4owDxZ10Hvr6HuvN5KaJnL10/mYeKihHeHI++otqLXnKrUgCr8cs4Nh4vc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t4trfDft4PiZgGtRjM497+YDwxeTQYcP/rGCLGkb+C9bGKaeDUEUMqy4tYD6qfv2SuOLSCRf+qKJs/C8pd8ydzyRiIuAGRrWDPLfC3/3Z5UbcAa4himYFWQ5/tW0R9+QInbaT8WWyH6W5Z0pwEB0TCfqESUbn3EYTEcq6SA/QUc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQVSsLE7yOsI1FigtV85uYczAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBBAFMAVABBAFIAQQAtAEEAQwBFAFIAMQBcAEEAcwB0AGEAcgBhMB4XDTEzMDEyMjE3MjgwOFoXDTE0MDEyMjIzMjgwOFowMTEvMC0GA1UEAx4mAEEAUwBUAEEAUgBBAC0AQQBDAEUAUgAxAFwAQQBzAHQAYQByAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALeLa3w37eD4mYBrUYzOPe/mA8MXk0GHD/6xgixpG/gvWximng1BFDKsuLWA+qn79krji0gkX/qiibPwvKXfMnc8kYiLgBka1gzy3wt/92eVG3AGuIYpmBVkOf7VtEffkCJ22k/Flsh+luWdKcBAdEwn6hElG59xGExHKukgP0FHAgMBAAEwCQYFKw4DAh0FAAOBgQCeS19cSFUyklhmYrkJPa+l058yeLjOjJ9d0XCKXgAGBgFnOze+7YLVZj7BffovvucduxwmyoVRFh7SJr1NDCjd9dCTDX/7Ei7uXeB66OCib2xyXTCoDHfLQ8ha1Fsl+ZZDL0L/wFKrK+RwmTeIaMHZjGKwmJtZlzvuAb7GJnoWYg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
